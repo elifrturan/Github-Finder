@@ -1,8 +1,11 @@
-# React + Vite
+# README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a github user search application built with react js.
 
-Currently, two official plugins are available:
+To search for a user registered in github, the user first enters a keyword in the search field.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users with usernames that match the keyword entered are listed.
+
+The profile photo, username and github profile link of the listed users are displayed as a card.
+
+The user can clear the search results by clicking clear results.
